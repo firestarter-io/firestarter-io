@@ -18,4 +18,5 @@ In order to make wildfire prediction more interesting, the user must be able to 
 
 ## Architecture
 
-##
+Firestarter is a full stack web application. The core algorithm lives in a node-typescript application.  The goal with this architecture is to offload the computational burden from the user's machine to the server, which could be architected to run on a compute-optimized machine (through AWS, for instance).  The UI, which may live in a web browser as as a native application, communicates to the server application, providing some basic data about the simulation, or Campaign, that the user wants to run (time, place, length, parameters, etc.).  The algorithm performs the calculations, generating a series of snapshots of the fire model in time, or Timesteps, which are then sent back to the client.  The client may play these back using the UI's play function, or there may be some back and forth and the client provides input based on prompts from the algorithm.
+
