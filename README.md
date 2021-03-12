@@ -1,4 +1,7 @@
-# Firestarter.io
+<p align="center">
+  <img src="./flame.png" width="100"/>
+  <h1 align="center">Firestarter.io</h1>
+</div>
 
 Firestarter is a web-based wildfire prediction application.  It is a full stack application, written in typescript.  This readme gives a general overfiew of firestarter's architecture and philosophy.
 
