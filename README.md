@@ -11,7 +11,7 @@ Wilfire poses a threat to a variety of stakeholders, and is of special interest 
 
 ## Philosophy
 
-## Stakeholder Concepts
+### Stakeholder Concepts
 
 Different types of stakeholders will have very different interests in wildfire prediction.  They may have very different questions to answer or input to give, whether regarding a single fire, fire season, or fire as a force to be dealt with over a long period of time.  Home and property owners might ask, "Is my property at risk?  Will I need to evacuate?  Am I safe from fire?", while firefighters might ask, "What resources will we need to fight this fire / fires in this area?  Will it be 'worth it' to apply these resources, or is it better to let the fire burn?"  Land developers may ask whether or not its worth building property in very fire-proned areas, and insurance companies may ask how the likelihood of fire in an area may affect how they craft their insurance policies for property owners.  Firestarter aims to customize the UI and algorithm parameters to help each type of stakeholder answer the questions that are relevant to *them*.
 
