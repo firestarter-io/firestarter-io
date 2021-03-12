@@ -31,7 +31,7 @@ A short list of stakeholders includes:
 
 ### 🙋‍♀️ Stakeholder Decisions as Algorithm Parameters
 
-When a fire arises, different stakeholders will make decisions in response to the nature of the fire and the surrounding geographic features.  Where will a fire department choose to contain a fire?  Based on that choice, which property owners will choose to evacuate, and which will choose to stay.  How will these choices affect property damage?  How will property damage for a given fire season affect 
+When a fire arises, different stakeholders will make decisions in response to the nature of the fire and the surrounding geographic features.  Where will a fire department choose to contain a fire?  Based on that choice, which property owners will choose to evacuate, and which will choose to stay.  How will these choices affect property damage?  How will property damage for a given fire season affect insurance policies written in the following years?  Each person makes decisions that will affect others and they way that wildfire plays a part in their life.
 
 ### 🧑‍💻 UI Goals
 
@@ -42,5 +42,5 @@ With different users coming to the App with different questions, one aspiration 
 
 ## 🏛️ Architecture
 
-Firestarter is a full stack web application. The core algorithm lives in a node-typescript application.  The goal with this architecture is to offload the computational burden from the user's machine to the server, which could be architected to run on a compute-optimized machine (through AWS, for instance).  The UI, which may live in a web browser as as a native application, communicates to the server application, providing some basic data about the simulation, or Campaign, that the user wants to run (time, place, length, parameters, etc.).  The algorithm performs the calculations, generating a series of snapshots of the fire model in time, or Timesteps, which are then sent back to the client.  The client may play these back using the UI's play function, or there may be some back and forth and the client provides input based on prompts from the algorithm.
+Firestarter is a full stack web application. The core algorithm lives in a node-typescript application.  The goal with this architecture is to offload the computational burden from the user's machine to the server, which could be architected to run on a compute-optimized machine (through AWS, for instance).  The UI, which may live in a web browser or as a native application, communicates to the server application, providing some basic data about the simulation, or Campaign, that the user wants to run (time, place, length, parameters, etc.).  The algorithm performs the calculations, generating a series of snapshots of the fire model in time, or Timesteps, which are then sent back to the client.  The client may play these back using the UI's play function, or there may be some back and forth and the client provides input based on prompts from the algorithm.
 
