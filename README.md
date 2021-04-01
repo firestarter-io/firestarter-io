@@ -3,11 +3,11 @@
   <h1 align="center">Firestarter.io</h1>
 </div>
 
-Firestarter is a web-based wildfire prediction application.  It is a full stack application, written in typescript.  This readme gives a general overfiew of firestarter's architecture and philosophy.
+Firestarter is a web-based wildfire prediction application.  It is a full stack application, written in typescript.  This readme gives a general overview of firestarter's architecture and philosophy.
 
 ## Purpose
 
-Wilfire poses a threat to a variety of stakeholders, and is of special interest to those with stakes in urban-wildland boundary areas. Wildfire prediction algorithms strive to apply an analytic framework to a choatic and unpredictable natural phenomenon.  With a core set of location-based data (topography, groundcover, weather, etc), simple physical principles can extrapolated and iterated to predict how fires may behave.  Such predictions can help mitigate the risk of wildfires in fire-prone areas.
+Wildfire poses a threat to a variety of stakeholders, and is of special interest to those with stakes in urban-wildland boundary areas. Wildfire prediction algorithms strive to apply an analytic framework to a choatic and unpredictable natural phenomenon.  With a core set of location-based data (topography, groundcover, weather, etc), simple physical principles can extrapolated and iterated to predict how fires may behave.  Such predictions can help mitigate the risk of wildfires in fire-prone areas.
 
 ## Philosophy
 
