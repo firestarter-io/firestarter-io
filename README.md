@@ -7,7 +7,7 @@ Firestarter is a web-based wildfire prediction application.  It is a full stack 
 
 ## Purpose
 
-Wildfire poses a threat to a variety of stakeholders, and is of special interest to those with stakes in urban-wildland boundary areas. Wildfire prediction algorithms strive to apply an analytic framework to a choatic and unpredictable natural phenomenon.  With a core set of location-based data (topography, groundcover, weather, etc), simple physical principles can extrapolated and iterated to predict how fires may behave.  Such predictions can help mitigate the risk of wildfires in fire-prone areas.
+Wildfire poses a threat to a variety of stakeholders, and is of special interest to those with stakes in urban-wildland boundary areas. Wildfire prediction algorithms strive to apply an analytic framework to a choatic and unpredictable natural phenomenon.  With a core set of location-based data (topography, groundcover, weather, etc), simple physical principles can be extrapolated and iterated to predict how fires may behave.  Such predictions can help mitigate the risk of wildfires in fire-prone areas.
 
 ## Philosophy
 
